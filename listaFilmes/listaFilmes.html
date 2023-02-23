@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="javascript.js"></script>
+    <title>Lista de Filmes</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img style="width: 3%" src="img/claquete.png" alt="">
+          <a class="navbar-brand" href="#topo">Lista de Filmes</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item"> 
+                <a class="nav-link" href="#tabelaFilmes">Filmes Disponíveis</a> 
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#cadastrarFilme">Cadastrar Filme</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Filmes por Categoria </a>
+                <ul class="dropdown-menu">
+                    <li> <a class="dropdown-item" href="#gAcao">Ação</a> </li>
+                    <li> <a class="dropdown-item" href="#gAnimacao">Animação</a> </li>
+                    <li> <a class="dropdown-item" href="#gRomance">Romance</a> </li>
+                    <li> <a class="dropdown-item" href="#gSuspense">Suspense</a> </li>
+                    <li> <a class="dropdown-item" href="#gComedia">Comédia</a> </li>
+                    <li> <a class="dropdown-item" href="#gDrama">Drama</a> </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <br>
+    <br>
+    <h1 class="display-1 text-center mb-5">Lista de Filmes</h1>
+
+    <div class="container" id="tabelaFilmes">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col"> Código </th>
+                    <th scope="col"> Título </th>
+                    <th scope="col"> Diretor </th>
+                    <th scope="col"> Lançamento </th>
+                    <th scope="col"> Gênero </th>
+                    <th scope="col"> Ator/Atriz Principal </th>
+                    <th scope="col"> Nota IMDb </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gAcao"> Ação </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 1 </th>
+                    <td>Príncipe da Pérsia: As Areias do Tempo</td>
+                    <td>Mike Newell</td>
+                    <td>3 de junho de 2010</td>
+                    <td>Ação</td>
+                    <td>Jake Gyllenhaal</td>
+                    <td>6,6/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 2 </th>
+                    <td>Matrix</td>
+                    <td>DiretorLana Wachowski, Lilly Wachowski</td>
+                    <td>21 de maio de 1999</td>
+                    <td>Ação</td>
+                    <td>Keanu Reeves</td>
+                    <td>8,7/10</td>
+                </tr>
+
+
+                <tr>
+                    <th scope="row"> 3 </th>
+                    <td>O Império Contra-Ataca</td>
+                    <td>Irvin Kershner</td>
+                    <td>21 de julho de 1980</td>
+                    <td>Ação</td>
+                    <td>Mark Hamill</td>
+                    <td>8,7/10</td>
+                </tr>
+
+
+                <tr>
+                    <th scope="row"> 4 </th>
+                    <td>O Senhor dos Anéis: A Sociedade do Anel</td>
+                    <td>Peter Jackson</td>
+                    <td>01 de janeiro de 2002</td>
+                    <td>Ação</td>
+                    <td>Elijah Wood</td>
+                    <td>8,8/10</td>
+                </tr>
+
+                
+                <tr>
+                    <th scope="row"> 5 </th>
+                    <td>O Senhor dos Anéis: As Duas Torres</td>
+                    <td>Peter Jackson</td>
+                    <td>27 de dezembro de 2002</td>
+                    <td>Ação</td>
+                    <td>Elijah Wood</td>
+                    <td>8,8/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gAnimacao"> Animação </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 6 </th>
+                    <td>A Viagem de Chihiro</td>
+                    <td>Hayao Miyazaki</td>
+                    <td>18 de julho de 2003</td>
+                    <td>Animação</td>
+                    <td>Rumi Hiiragi (voz)</td>
+                    <td>8,6/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 7 </th>
+                    <td>O Rei Leão</td>
+                    <td>Rob Minkoff, Roger Allers</td>
+                    <td>8 de julho de 1994</td>
+                    <td>Animação</td>
+                    <td>James Earl Jones (voz)</td>
+                    <td>8,5/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 8 </th>
+                    <td>Túmulo dos Vagalumes</td>
+                    <td>Isao Takahata</td>
+                    <td>24 de novembro de 1989</td>
+                    <td>Animação</td>
+                    <td>Tsutomu Tatsumi (voz)</td>
+                    <td>8,5/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 9 </th>
+                    <td>Encanto</td>
+                    <td>Byron Howard, Jared Bush</td>
+                    <td>25 de novembro de 2021</td>
+                    <td>Animação</td>
+                    <td>Stephanie Beatriz (voz)</td>
+                    <td>7,2/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 10 </th>
+                    <td>Divertida Mente</td>
+                    <td>Pete Docter</td>
+                    <td>18 de junho de 2015</td>
+                    <td>Animação</td>
+                    <td>Amy Poehler (voz)</td>
+                    <td>8,2/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gRomance"> Romance </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 11 </th>
+                    <td>Dirty Dancing: ritmo quente</td>
+                    <td>Emile Ardolino</td>
+                    <td>25 de setembro de 1987</td>
+                    <td>Romance</td>
+                    <td>Jennifer Grey, Patrick Swayze</td>
+                    <td>7/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 12 </th>
+                    <td>Ghost: do outro lado da vida</td>
+                    <td>Jerry Zucker</td>
+                    <td>1 de novembro de 1990</td>
+                    <td>Romance</td>
+                    <td>Demi Moore, Patrick Swayze</td>
+                    <td>7,1/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 13 </th>
+                    <td>Amor à segunda vista</td>
+                    <td>Marc Lawrence</td>
+                    <td>12 de dezembro de 2002</td>
+                    <td>Romance</td>
+                    <td>Sandra Bullock</td>
+                    <td>6,1/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 14 </th>
+                    <td>Titanic</td>
+                    <td>James Cameron</td>
+                    <td>16 de janeiro de 1998</td>
+                    <td>Romance</td>
+                    <td>Leonardo DiCaprio, Kate Winslet</td>
+                    <td>7,9/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 15 </th>
+                    <td>Forrest Gump: O Contador de Histórias</td>
+                    <td>Robert Zemeckis</td>
+                    <td>07 de dezembro de 1994</td>
+                    <td>Romance</td>
+                    <td>Tom Hanks</td>
+                    <td>8,8/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gSuspense"> Suspense </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 16 </th>
+                    <td>Cidade de Deus</td>
+                    <td>Fernando Meirelles, Kátia Lund</td>
+                    <td>30 de agosto de 2002</td>
+                    <td>Suspense</td>
+                    <td>Alexandre Rodrigues</td>
+                    <td>8,6/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 17 </th>
+                    <td>Garota Exemplar</td>
+                    <td>David Fincher</td>
+                    <td>2 de outubro de 2014</td>
+                    <td>Suspense</td>
+                    <td>Rosamund Pike</td>
+                    <td>8,1/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 18 </th>
+                    <td>Corra!</td>
+                    <td>Jordan Peele</td>
+                    <td>18 de maio de 2017</td>
+                    <td>Suspense</td>
+                    <td>Daniel Kaluuya</td>
+                    <td>8,6/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 19 </th>
+                    <td>Garota Exemplar</td>
+                    <td>David Fincher</td>
+                    <td>02 de outubro de 2014</td>
+                    <td>Suspense</td>
+                    <td>Ben Affleck</td>
+                    <td>8,1/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 20 </th>
+                    <td>À Espera de um Milagre</td>
+                    <td>Frank Darabont</td>
+                    <td>10 de março de 2000</td>
+                    <td>Suspense</td>
+                    <td>Tom Hanks,Michael Clarke Duncan</td>
+                    <td>8,6/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gComedia"> Comédia </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 21 </th>
+                    <td>Pulp Fiction: Tempo de Violência</td>
+                    <td>Quentin Tarantino</td>
+                    <td>18 de fevereiro de 1995</td>
+                    <td>Comédia</td>
+                    <td>John Travolta</td>
+                    <td>8,9/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 22 </th>
+                    <td>Apertem os Cintos, o Piloto Sumiu</td>
+                    <td>Jim Abrahams, David Zucker, Jerry Zucker</td>
+                    <td>26 de dezembro de 1980</td>
+                    <td>Comédia</td>
+                    <td>Robert Hays</td>
+                    <td>7,7/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 23 </th>
+                    <td>Os Caça-Fantasmas</td>
+                    <td>Ivan Reitman</td>
+                    <td>20 de dezembro de 1984</td>
+                    <td>Comédia</td>
+                    <td>Bill Murray</td>
+                    <td>7,8/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 24 </th>
+                    <td>Intocáveis</td>
+                    <td>Olivier Nakache, Éric Toledano</td>
+                    <td>31 de agosto de 2012</td>
+                    <td>Comédia</td>
+                    <td>François Cluzet, Omar Sy</td>
+                    <td>8,5/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 25 </th>
+                    <td>Loucademia de Polícia</td>
+                    <td>Hugh Wilson</td>
+                    <td>16 de abril de 1984</td>
+                    <td>Comédia</td>
+                    <td>Steve Guttenberg</td>
+                    <td>6,7/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gDrama"> Drama </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 26 </th>
+                    <td>Um Sonho de Liberdade</td>
+                    <td>Frank Darabont</td>
+                    <td>17 de março de 1995</td>
+                    <td>Drama</td>
+                    <td>Morgan Freeman</td>
+                    <td>9,3/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 27 </th>
+                    <td>O Poderoso Chefão</td>
+                    <td>Francis Ford Coppola</td>
+                    <td>7 de julho de 1972</td>
+                    <td>Drama</td>
+                    <td>Al Pacino</td>
+                    <td>9,2/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 28 </th>
+                    <td>A Lista de Schindler</td>
+                    <td>Steven Spielberg</td>
+                    <td>31 de dezembro de 1993</td>
+                    <td>Drama</td>
+                    <td>Liam Neeson</td>
+                    <td>9,0/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 29 </th>
+                    <td>Green Book: O Guia</td>
+                    <td>Peter Farrelly</td>
+                    <td>24 de janeiro de 2019</td>
+                    <td>Drama</td>
+                    <td>iggo Mortensen, Mahershala Ali</td>
+                    <td>8,2/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 30 </th>
+                    <td>Bohemian Rhapsody</td>
+                    <td>Bryan Singer</td>
+                    <td>01 de novembro de 2018</td>
+                    <td>Drama</td>
+                    <td>Rami Malek</td>
+                    <td>7,9/10</td>
+                </tr>
+
+                <tr id="inserirTabela">
+                </tr>
+
+            </tbody>
+        </table>
+
+        <div class="m-5">
+            <hr class="border-primary border-3 opacity-75">
+        </div>
+
+        <div class="container mb-5" id="cadastrarFilme">
+            <h2 class="text-center">Cadastrar Novo Filme</h2>
+            <form name="cadastrarNovoFilme" onsubmit="event.preventDefault()">
+                <div class="row">
+                    <div class="mb-3 col">
+                        <label for="codFilme" class="form-label">Código</label>
+                        <input type="text" class="form-control" id="codFilme" placeholder="00" name="codigo" required>
+                    </div>
+
+                    <div class="mb-3 col">
+                        <label for="AnoFilme" class="form-label">Lançamento</label>
+                        <input type="date" class="form-control" id="AnoFilme" placeholder="DD de MM de AAAA" name="data" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="mb-3 col">
+                        <label for="tituloFilme" class="form-label">Título</label>
+                        <input type="text" class="form-control" id="tituloFilme" name="tituloFilme" required>
+                    </div>
+
+                    <div class="mb-3 col">
+                        <label for="DiretorFilme" class="form-label">Diretor</label>
+                        <input type="text" class="form-control" id="DiretorFilme" name="diretor" required>
+                    </div>
+
+                    <div class="mb-3 col">
+                        <label for="AtorAtrizPrincial" class="form-label">Ator/Atriz Principal</label>
+                        <input type="text" class="form-control" id="AtorAtrizPrincipal" name="atorAtrizPrincipal" required>
+                    </div>
+
+                    <div class="mb-3 col">
+                        <label for="notaImdb" class="form-label">Nota IMDb</label>
+                        <input type="number" class="form-control" id="notaImdb" name="notaImdb" required>
+                    </div>
+                </div>
+
+            <br>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioGeneroAcao" value="Ação" required>
+                <label class="form-check-label" for="radioGeneroAcao">Ação</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioGeneroAnimacao" value="Animação" required>
+                <label class="form-check-label" for="radioGeneroAnimacao">Animação</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioGeneroRomance" value="Romance" required>
+                <label class="form-check-label" for="radioGeneroRomance">Romance</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioGeneroSuspense" value="Suspense" required>
+                <label class="form-check-label" for="radioGeneroSuspense">Suspense</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioGeneroComedia" value="Comédia" required>
+                <label class="form-check-label" for="radioGeneroComedia">Comédia</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioGeneroDrama" value="Drama" required>
+                <label class="form-check-label" for="radioGeneroDrama">Drama</label>
+              </div>
+            
+              <br>
+              <br>
+               
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3" onclick="insere()">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>

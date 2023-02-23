@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Sora:wght@200;400;600&display=swap');
+
+body {
+    background: #f9dac9;
+    font-family: montserrat, sans-serif;
+    background-image: url("pattern/Pattern7.png");
+    background-size: 4%;
+    background-repeat: repeat-x repeat-y;
+}
+
+.frame {
+    position: absolute;
+    background-color: #f9f7f3;
+    top: 42%;
+    left: 50%;
+    width: 400px;
+    height: 510px;
+    margin-top: -200px;
+    margin-left: -200px;
+    box-shadow: 8px 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+.frame, .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+
+.title h1 {
+    font-family: sora, montserrat, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+    margin: 18px;
+    color:  #574342;
+}
+
+.title h3 {
+    font-family:  montserrat, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.72em;
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+
+.title p {
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    width: 340px;
+    font-size: 12px;
+    line-height: 180%;
+}
+
+#profile {
+    width: 120px;
+    border-radius: 66px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #f9dac9;
+    box-shadow: 6px 12px 12px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 18px;
+    margin-top: -12px;
+    color:  #85bca0;
+}
+
+.content h3 {
+    color: r#574342;
+    font-family: montserrat, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+}
+
+img {
+    width: 30px;
+    margin-top: 16px;
+    margin-left: 18px;
+    align-items: center;
+    margin: 12px;
+    color: #d29786;
+}
+
+img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

@@ -1,0 +1,94 @@
+body {
+    background-color: linen; 
+    font-family: sora, verdana, sans-serif;
+    text-align: justify;
+}
+
+.head {
+    text-align: center;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#sumario {
+    text-align: center;
+    font-weight: bold; 
+    list-style-position: inside;
+}
+
+a {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: montserrat, Verdana, sans-serif;
+}
+
+.tituloLivro {
+    background-color: black;
+    color: linen;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+img {
+    width: 15%;
+    align-content: center;
+}
+
+p {
+    width: 60%;
+    font-family: montserrat, Verdana, sans-serif;
+    text-align: left;
+    text-indent: 4.5em;
+    align-content: center;
+    margin: auto;
+}
+
+table {
+    width: 60%; 
+    margin: auto; 
+    font-size: 90%;
+}
+
+th {
+    background-color: black;
+    color: linen;
+}
+
+td {
+    background-color:linen;
+}
+
+span {
+    font-weight: bold;
+}
+
+#livro1 {
+    background-color: lightsalmon; 
+    text-align: center;
+}
+
+#livro2 {
+    background-color: khaki; 
+    text-align: center;
+}
+
+#livro3 {
+    background-color: rgb(241, 202, 104); 
+    text-align: center;
+}
+
+#livro4 {
+    background-color: moccasin; 
+    text-align: center;
+}
+
+#livro5 {
+    background-color: tomato; 
+    text-align: center;
+}
