@@ -20,4 +20,4 @@ export function Header() {
         <NewStickyModal isOpen={isModalOpen} onRequestClose={handleCloseModal}/>
         <Button title="Add Reminder" click={() => handleOpenModal()}/>
     </Container>;
-} 
+}  
