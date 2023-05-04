@@ -3,7 +3,7 @@
 <br>
 
 ## Informações Gerais
-<p align="left">Este projeto foi desenvolvido pela aluna Camila Agostini Rhoden durante as aulas curso **Desenvolvimento Front-End: Do Zero ao Primeiro Site**, oferecido pelo **Grupo +praTI** e ministradas pela professora Tauana Auler Rosa.</p>
+<p align="left">Este projeto foi desenvolvido pela aluna Camila Agostini Rhoden durante as aulas curso <strong>Desenvolvimento Front-End: Do Zero ao Primeiro Site</strong>, oferecido pelo <strong>Grupo +praTI</strong> e ministradas pela professora Tauana Auler Rosa.</p>
 <br>
 
 ## Objetivo do Projeto
