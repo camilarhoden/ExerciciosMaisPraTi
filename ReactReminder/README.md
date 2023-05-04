@@ -9,3 +9,9 @@
 ## Objetivo do Projeto
 <p align="left">O objetivo principal foi criar uma página de lembretes enquanto se tinha o primeiro contato com a biblioteca React. Nesta página é possível adicionar novos lembretes ao clicar no botão Add Reminder. Uma janela se abre onde é possível adicionar título e conteúdo de cada lembrete, formando um painel de recados. Foi possível exercitar a criação de componentes e utilização de recursos básicos do React.</p>
 <br>
+
+## Tecnologias
+* HTML
+* CSS
+* React JS
+* Biblioteca styled-components
